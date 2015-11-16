@@ -1,6 +1,10 @@
 /*
-
-
+Copyright AndyLonly（liujiaqi）
+程序 by AndyLonly（liujiaqi）
+本Javascript库是自由软件
+但请在转载使用过程中需注明作者以及这个网址
+不允许修改再发布以及任何更改任何一段字符的行为
+禁止其他人用于任何商业用途（它是开放的程序）
 */
 function QTE(keya,keyb,keyc,keyd,time)
 {
