@@ -1,5 +1,5 @@
 /*
-Copyright AndyLonly（liujiaqi）
+Copyright AndyLonly（liujiaqi）2015
 程序 by AndyLonly（liujiaqi）
 本Javascript库是自由软件
 但请在转载使用过程中需注明作者以及这个网址
