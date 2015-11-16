@@ -28,6 +28,29 @@
   <p>请务必无视这个页面，我只不过是无聊而已quq</p>
   <p>而且不能用PHP（怨念啊~~~~）</p>
   <p>以后这个页面就作为Javascript的测试页面好了，嗯嗯嗯~</p>
+  <p>下面就开始测试好了</p>
+<script>
+document.write("<h1>This is a Text</h1>");
+function QTE(keya,keyb,keyc,keyd,time)
+{
+/*
+下面这一坨用来准备好按键的随机运算
+*/
+if (!this.keyd){
+  if (!this.keyc){
+    if (!this.keyb){
+        run = 1
+    }else{run = 2}
+  }else{ run = 3 }
+}else{ run = 4 }
+/*
+下面这一坨用来随机取值来得到一个随机的KEY
+*/
+keyn = Math.ceil(Math.random()* run)
+ return keyn
+}
+document.write(QTE(keya,keyb,keyc,keyd,time));
+</script>
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/AndyLonly/QTE-RPG-MAKER">Qte-rpg-maker</a> is maintained by <a href="https://github.com/AndyLonly">AndyLonly</a>.</span>
 
