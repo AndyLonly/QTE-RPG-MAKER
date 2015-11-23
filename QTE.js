@@ -17,6 +17,10 @@ Copyright AndyLonly（liujiaqi）2015
  *@help
  *你可以通过使用脚本输入QTE(keya,keyb,keyc,keyd,time)来启动
  *但你需要额外的脚本库作为事件
+ *然而，当你看到这里的时候
+ *你坑定啦
+ *因为额外插件的API我才懒得弄
+ *哈哈哈哈哈哈哈哈哈
  */
 (function QTE(keya,keyb,keyc,keyd,time)
 {
