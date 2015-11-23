@@ -31,6 +31,17 @@ if (!this.keyd){
 keyn = Math.ceil(Math.random()* run)
 /*
 下面这一坨把准备好按键的进行对照以后从数字到按键，然而..........神他妈按键怎么弄卧槽,保留按键。
+稍微看了一下教程，感觉不太会用啊
+isTriggered ( keyName ) Boolean [static]
+检测按键是否刚被按下。
+参数：
+keyName String
+待检测按键的映射名
+返回值：
+Boolean: 
+若按键刚被按下，返回 true
+update () [static]
+更新输入数据。
 */
 switch(n)
 {
