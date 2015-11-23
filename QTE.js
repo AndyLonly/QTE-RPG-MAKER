@@ -1,10 +1,6 @@
-/*:zh
-/*@author
-
-
-
-
-
+//=============================================================================
+// QTE.js
+//=============================================================================
 /*
 Copyright AndyLonly（liujiaqi）2015
 程序 by AndyLonly（liujiaqi）
@@ -13,7 +9,16 @@ Copyright AndyLonly（liujiaqi）2015
 不允许修改再发布以及任何更改任何一段字符的行为
 禁止其他人用于任何商业用途（它是开放的程序）
 */
-function QTE(keya,keyb,keyc,keyd,time)
+
+/*:zh
+ *@plugindesc
+ *这个插件可以提供QTE事件的生成
+ *@author AndyLonly
+ *@help
+ *你可以通过使用脚本输入QTE(keya,keyb,keyc,keyd,time)来启动
+ *但你需要额外的脚本库作为事件
+ */
+(function QTE(keya,keyb,keyc,keyd,time)
 {
 /*
 下面这一坨用来准备好按键的随机运算
@@ -69,4 +74,4 @@ default:
 /*
 结尾撒花~
 */
-}
+})()
