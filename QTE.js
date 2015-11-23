@@ -1,3 +1,10 @@
+/*:zh
+/*@author
+
+
+
+
+
 /*
 Copyright AndyLonly（liujiaqi）2015
 程序 by AndyLonly（liujiaqi）
