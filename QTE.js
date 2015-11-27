@@ -22,6 +22,14 @@ Copyright AndyLonly 2015
 (function QTE(keya,keyb,keyc,keyd,time)
 {
 /*
+这里好像要定义变量啊
+*/
+
+
+
+
+
+/*
 下面这一坨用来准备好按键的随机运算
 */
 if (!this.keyd){
