@@ -31,7 +31,15 @@
   <p>下面就开始测试好了</p>
 <script>
 document.write("<h1>This is a Text</h1>");
-function QTE(keya,keyb,keyc,keyd,time)
+
+
+
+var txt="";
+function message()
+{
+try
+  {
+  function QTE(keya,keyb,keyc,keyd,time)
 {
 /*
 下面这一坨用来准备好按键的随机运算
@@ -50,7 +58,25 @@ keyn = Math.ceil(Math.random()* run)
  return keyn
 }
 document.write(QTE(keya,keyb,keyc,keyd,time));
+  }
+catch(err)
+  {
+  txt="There was an error on this page.\n\n";
+  txt+="Error description: " + err.message + "\n\n";
+  txt+="Click OK to continue.\n\n";
+  alert(txt);
+  }
+}
+
+
+
+
 </script>
+
+
+<input type="button" value="View message" onclick="message()">
+
+
       <footer class="site-footer">
         <span class="site-footer-owner"><a href="https://github.com/AndyLonly/QTE-RPG-MAKER">Qte-rpg-maker</a> is maintained by <a href="https://github.com/AndyLonly">AndyLonly</a>.</span>
 
