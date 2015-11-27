@@ -2,8 +2,8 @@
 // QTE.js
 //=============================================================================
 /*
-Copyright AndyLonly（liujiaqi）2015
-程序 by AndyLonly（liujiaqi）
+Copyright AndyLonly 2015
+程序 by AndyLonly
 本Javascript库是自由软件
 但请在转载使用过程中需注明作者以及这个网址
 不允许修改再发布以及任何更改任何一段字符的行为
@@ -17,10 +17,7 @@ Copyright AndyLonly（liujiaqi）2015
  *@help
  *你可以通过使用脚本输入QTE(keya,keyb,keyc,keyd,time)来启动
  *但你需要额外的脚本库作为事件
- *然而，当你看到这里的时候
- *你坑定啦
- *因为额外插件的API我才懒得弄
- *哈哈哈哈哈哈哈哈哈
+ *当然以后也有wiki的教程拉
  */
 (function QTE(keya,keyb,keyc,keyd,time)
 {
