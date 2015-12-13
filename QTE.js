@@ -24,17 +24,17 @@ Copyright AndyLonly 2015
 /*
 这里好像要定义变量啊
 */
-
-
-
-
-
-/*
+var _Game_Interpreter_pluginCommand =
+            Game_Interpreter.prototype.pluginCommand;
+    Game_Interpreter.prototype.pluginCommand = function(command, args) {
+        _Game_Interpreter_pluginCommand.call(this, command, args);
+        if (command === 'QTE') {
+            /*
 下面这一坨用来准备好按键的随机运算
 */
-if (!this.keyd){
-  if (!this.keyc){
-    if (!this.keyb){
+if (!this.args[3]){
+  if (!this.args[2]){
+    if (!this.args[1]){
         run = 1
     }else{run = 2}
   }else{ run = 3 }
@@ -60,16 +60,16 @@ update () [static]
 switch(n)
 {
 case 1:
-  input = 
+  input = args[0]
   break;
 case 2:
-  input =
+  input = args[1]
   break;
 case 3:
-  input =
+  input = args[2]
   break;
 case 4:
-  input =
+  input = args[3]
   break;
 default:
   pass = 1;
@@ -83,4 +83,11 @@ default:
 /*
 结尾撒花~
 */
+        }
+    };
+
+
+
+
+
 })()
