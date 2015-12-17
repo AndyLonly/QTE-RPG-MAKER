@@ -58,6 +58,23 @@ Boolean:
 若按键刚被按下，返回 true
 update () [static]
 更新输入数据。
+貌似解决方案如下
+SceneManager.onKeyDown = function(event) {
+    if (!event.ctrlKey && !event.altKey) {
+        switch (event.keyCode) {
+        case 116:   // F5
+            if (Utils.isNwjs()) {
+                location.reload();
+            }
+            break;
+        case 119:   // F8
+            if (Utils.isNwjs() && Utils.isOptionValid('test')) {
+                require('nw.gui').Window.get().showDevTools();
+            }
+            break;
+        }
+    }
+};
 */
 switch(n)
 {
