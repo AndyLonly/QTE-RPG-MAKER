@@ -40,9 +40,11 @@ if (!this.args[3]){
   }else{ run = 3 }
 }else{ run = 4 }
 /*
-下面这一坨用来随机取值来得到一个随机的KEY
+下面这一坨用来随机取值来得到一个随机的KEY 后期替换为自带的方式Math.randomInt ( max ) 
+Math.ceil(Math.random()* run)
 */
-keyn = Math.ceil(Math.random()* run)
+keyn = Math.randomInt ( run ) 
+
 /*
 下面这一坨把准备好按键的进行对照以后从数字到按键，然而..........神他妈按键怎么弄卧槽,保留按键。
 稍微看了一下教程，感觉不太会用啊
